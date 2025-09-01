@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- #224559 #195588 #6688CC
+  #000C2D #9DAA88 #DDB576 #DDBB88 #B35F18 #B35F23 #005F6B -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quizzz - Programming</title>
+  <link href="prog.css" rel="stylesheet" type="text/css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+</head>
+
+<body>
+  <main class="main disable-selection">
+    <header class="header disable-selection">
+      <a href="index.html" class="logo disable-selection">Quizzz</a>
+      <nav class="navbar disable-selection">
+        <ul>
+          <li><a href="index.html" class="disable-selection" target="_self">Home</a></li>
+          
+          <li><a href="about.html" class="disable-selection" target="_self">About</a></li>
+          
+          <li>
+            <a href="#" class="disable-selection">Quiz Topics</a>
+            <ul class="dropdown">
+              <li>
+                <a href="hist.html" class="disable-selection">History</a>
+              </li>
+              <li>
+                <a href="prog.html" class="active disable-selection">Programming</a>
+              </li>
+              <li>
+                <a href="sci.html" class="disable-selection">Science</a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="#" class="disable-selection start-link play">Play</a></li>
+
+        </ul>
+      </nav>
+    </header>
+    
+    <div class="container">
+      <section class="quiz-section">
+        <button class="exit-quiz">Back</button>
+        <div class="quiz-box">
+          <h1>Quizzz</h1>
+          <div class="quiz-header">
+            <span>Programming</span>
+            <span class="header-score">Score: 0 / 10</span>
+          </div>
+          
+          <h2 class="question-text">Who is the famous female pharaoh known for her reign during the 15th century BC?</h2>
+
+          <div class="option-list">
+            <div class="option">
+              <span>a) Cleopatra</span>
+            </div>
+
+            <div class="option">
+              <span>b) Hatshepsute</span>
+            </div>
+
+            <div class="option">
+              <span>c) Nefertiti</span>
+            </div>
+
+            <div class="option">
+              <span>d) Ramses II</span>
+            </div>
+          </div>
+
+          <div class="quiz-footer">
+            <span class="question-total">1 of 10 Questions</span>
+            <div class="next-btn-div">
+              <button class="next-btn">Next</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="result-box">
+          <h2>Quiz Result!</h2>
+          <div class="per-con">
+            <div class="cir-progress">
+              <span class="progress-value">0%</span>
+            </div>
+
+            <span class="score-text">Your Score: 0 out of 10</span>
+          </div>
+
+          <div class="buttons">
+              <button class="tryAgain-btn">Try Again</button>
+              <button class="goHome-btn">Home</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="home">
+        <div class="home-con">
+          <button class="start-btn disable-selection">Game On!</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div class="popup-info disable-selection">
+    <h2 class="disable-selection">A Quick Say - Topic: History</h2>
+    <span class="info disable-selection"><span>1.</span> After you click 'Continue', you will be given the questions.</span>
+    <span class="info disable-selection"><span>2.</span> Read each question carefully and select your answer from the options provided.</span>
+    <span class="info disable-selection"><span>3.</span> After selecting your answer, you will receive immediate feedback indicating whether it is correct or incorrect.</span>
+    <span class="info disable-selection"><span>4.</span>. Feel free to play again to improve your score!</span>
+    <p class="disable-selection">Enjoy Quizzz and have fun!</p>
+
+    <div class="btn-group">
+      <button class="info-btn exit-btn disable-selection">Back</button> 
+      <a href="#" class="info-btn continue-btn disable-selection">Continue</a>
+    </div>
+  </div>
+    
+
+  
+  <script src="script.js"></script>
+  <script src="prog.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
